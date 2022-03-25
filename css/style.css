@@ -11,6 +11,7 @@
     --colorHover1: #9a0ddb;
     --colorBlue: #2d6fe1;
     --colorPurple: #8c1697;
+    --colorPurple2: #330a41;
 }
 
 /*   ---   EFEITOS   ---   */
@@ -25,7 +26,7 @@ nav {
     align-items: center;
     width: 100%;
     height: 70px;
-    background-image: linear-gradient(to right, var(--colorNav) , var(--colorPurple));
+    background-image: linear-gradient(to right, var(--colorNav) , var(--colorPurple2) , var(--colorPurple));
 }
 
 nav a {
@@ -49,7 +50,7 @@ nav a:hover {
     align-items: center;
     width: 100%;
     height: 650px;
-    background-image: linear-gradient(to right, var(--colorNav) , var(--colorPurple));
+    background-image: linear-gradient(to right, var(--colorNav) , var(--colorPurple2) , var(--colorPurple));
 }
 
 .h-descritivo {
