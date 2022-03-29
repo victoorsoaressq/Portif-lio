@@ -5,6 +5,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --colorNav: #0f061f;
     --colorTxt1: #fff;
@@ -47,12 +51,12 @@ nav a:hover {
 
 /*   ---   MAIN   ---   */
 
-.home {
+#home {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 650px;
+    height: 651px;
     background-image: linear-gradient(to right, var(--colorCont) , var(--colorCont2));
 }
 
@@ -136,12 +140,12 @@ span {
     text-shadow: none;
 }
 
-.habilidades {
+#habilidades {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 720px;
+    height: 721px;
     background-color: var(--colorBackground1);
 }
 
@@ -168,6 +172,7 @@ span {
 .descritivo-padrao p {
     font-size: 18px;
     line-height: 26px;
+    font-weight: 500;
 }
 
 .img-padrao {
@@ -209,6 +214,15 @@ span {
 }
 
 .cont-i-p1 h3 {
-    margin: 15px 0;
+    margin-bottom: 30px;
     font-size: 20px;
+}
+
+#cursos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 721px;
+    background-color: var(--colorCont);
 }
