@@ -212,6 +212,12 @@ span {
     line-height: 20px;
 }
 
+.cont-i-p1 h3 {
+    width: 230px;
+    line-height: 30px;
+    border-bottom: 4px solid var(--colorBlue);
+}
+
 .cont-i-p1.p2 {
     display: flex;
     align-items: center;
@@ -249,6 +255,7 @@ span {
     font-size: 45px;
     border-bottom: 5px solid var(--colorBlue);
     line-height: 70px;
+    width: 480px;
 }
 
 .dp-content {
